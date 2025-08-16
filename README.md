@@ -4,7 +4,7 @@ The main aim of this project was to quickly form a Monte carlo estimator for the
 
 The theory is rather simple. We take $N$ random vectors $\boldsymbol{X}$ which are uniformly distributed within the interval $[-1,1]^n$, where $n$ is the dimension of the cube. We then find all the vectors that lay inside our sphere by demanding: 
 
-$$S^n_{\text{estimate}} = \set{ X = (X_1, \cdots, X_n) | ||X|| \leq 1 }$$, 
+$$S^n_{\text{estimate}} = \set{ X = (X_1, \cdots, X_n) | \hspace{0.1cm} ||X|| \hspace{0.1cm} \leq 1 }$$, 
 
 where $||\cdot||$ represents the usual Euclidean norm. The fraction of vectors that satisfy this gives the probability that a uniform random vector lies within the $n$-sphere. To find the volume of the sphere we simply compute the volume of the $n$-cube;
 
