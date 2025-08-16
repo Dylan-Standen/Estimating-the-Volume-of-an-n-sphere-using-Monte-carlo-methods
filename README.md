@@ -2,7 +2,7 @@
 
 The main aim of this project was to quickly form a Monte carlo estimator for the volume of an n-sphere. This is something I had done during my degree in my mandatory computational physics course. However, I had lost the code. So, I thought it would be a good exercise to code another one quickly in Jupyter. In this read-me I'll also go over the theory behind the code. 
 
-The theory is rather simple. We take $N$ random vectors $\boldsymbol{X}$ which are uniformly distributed within the interval $[-1,1]^n$, where $n$ is the dimension of the cube. We then find all the points that lay inside our sphere by demanding: 
+The theory is rather simple. We take $N$ random vectors $\boldsymbol{X}$ which are uniformly distributed within the interval $[-1,1]^n$, where $n$ is the dimension of the cube. We then find all the vectors that lay inside our sphere by demanding: 
 
 $$S^n_{\text{estimate}} = \set{ X = (X_1, \cdots, X_n) | \sum_{i = 1}^n X^2_i \leq 1 }$$
 
