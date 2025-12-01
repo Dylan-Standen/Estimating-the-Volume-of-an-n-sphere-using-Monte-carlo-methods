@@ -1,6 +1,6 @@
-# Estimating the Volume of an n-sphere using Monte carlo methods
+# Estimating the Volume of an n-sphere using Monte Carlo methods
 
-The main aim of this project was to quickly form a Monte carlo estimator for the volume of an n-sphere. This is something I had done during my degree in my mandatory computational physics course. However, I had lost the code. So, I thought it would be a good exercise to code another one quickly in Jupyter. In this read-me I'll also go over the theory behind the code. 
+The main aim of this project was to quickly form a Monte Carlo estimator for the volume of an n-sphere. This is something I had done during my degree in my mandatory computational physics course. However, I had lost the code. So, I thought it would be a good exercise to code another one quickly in Jupyter. In this read-me I'll also go over the theory behind the code. 
 
 The theory is rather simple. We take $N$ random vectors $\boldsymbol{X}$ which are uniformly distributed within the interval $[-1,1]^n$, where $n$ is the dimension of the cube. We then find all the vectors that lay inside our sphere by demanding: 
 
